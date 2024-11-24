@@ -13,4 +13,5 @@ langchain_chroma==0.1.4
 langchain-huggingface==0.1.2
 transformers
 sentence-transformers
+tf-keras
 -e .

@@ -163,3 +163,4 @@ cython_debug/
 
 alemeno_content_engine.egg-info/
 artifacts/prepare_base_model/Qwen/model.safetensors
+prepare_vector_db/

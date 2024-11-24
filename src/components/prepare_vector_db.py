@@ -81,6 +81,6 @@ class PrepareVectorDB:
             logging.info(f"Error in initiate_preparing_vector_db -- {e}")
             raise CustomException(e,sys)
         
-if __name__ == "__main__":
-    prepare_vector_db = PrepareVectorDB()
-    prepare_vector_db.save_database()
+# if __name__ == "__main__":
+#     prepare_vector_db = PrepareVectorDB()
+#     prepare_vector_db.save_database()

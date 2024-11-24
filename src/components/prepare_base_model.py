@@ -43,6 +43,6 @@ class PrepareBaseModel:
             logging.info(f"Error in load_and_save -- {e}")
             raise CustomException(e,sys)
         
-if __name__ == "__main__":
-    prepare_base_model = PrepareBaseModel()
-    prepare_base_model.load_and_save()
+# if __name__ == "__main__":
+#     prepare_base_model = PrepareBaseModel()
+#     prepare_base_model.load_and_save()
