@@ -18,7 +18,7 @@ def get_requirements(file_path:str)->List[str]:
 
 setup(
     name='alemeno-content-engine',
-    version='0.0.0',
+    version='0.0.1',
     author='Sanchit',
     author_email='atcsanchit@gmail.com',
     packages=find_packages(),
